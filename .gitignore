@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+memory_service.log
+project_management_demo.log
+nohup.out
+
+# Database files
+ltm.db
+ltm.db-journal
+
+# Vector data
+vector_index.faiss
+vector_mapping.json
+
+# Redis dump
+dump.rdb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Model files (too large for git)
+qwen3-embedding-*/
+*.bin
+*.safetensors
+
+# User data
+user_datas.pkl
+config.json
+
+# Runtime files
+*.pid
